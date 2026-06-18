@@ -1,0 +1,19 @@
+{
+  "name": "bot-anti-bet-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot de moderação para grupo WhatsApp: remove links de bet/tigrinho e mantém lista branca de lojas permitidas.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.7"
+  }
+}
